@@ -347,7 +347,7 @@ def make_avatar_image(path, size):
 #    "exe": {"url": "https://.../VIGIL_Panel.exe", "sha256": "..."}}
 # Bunu publish_update.py otomatik üretir. Aşağıdaki adresi kendi barındırmana göre değiştir
 # (ya da ayarlar.json içine "update_url" yaz / VIGIL_UPDATE_URL ortam değişkeni kullan).
-UPDATE_URL = os.environ.get("VIGIL_UPDATE_URL", "https://raw.githubusercontent.com/KULLANICI/vigil-panel/main/version.json")
+UPDATE_URL = os.environ.get("VIGIL_UPDATE_URL", "https://raw.githubusercontent.com/vezcra/vigil-panel/main/version.json")
 UPDATE_DIR = APP_DIR / "updates"
 UPDATE_DIR.mkdir(exist_ok=True)
 PENDING_FILE = UPDATE_DIR / "pending.json"
