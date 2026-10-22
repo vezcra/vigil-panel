@@ -1,0 +1,10 @@
+
+{
+  "version": "2.4.0",
+  "notes": "VIGIL Panel GitHub update",
+  "mandatory": false,
+  "py": {
+    "url": "https://raw.githubusercontent.com/vezcra/vigil-panel/main/vigil_panel.py",
+    "sha256": "DD9876C456BF2D3410927DD0C4454ACB06B4FC666AEDF6F2D16F3F43F50A0BC9"
+  }
+}
